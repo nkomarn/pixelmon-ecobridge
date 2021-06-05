@@ -251,11 +251,6 @@ public class EcoImpl implements Economy {
     }
 
     @NotNull
-    private UUID getIdByUsername(@NotNull String username) {
-        return Bukkit.getOfflinePlayer(username).getUniqueId();
-    }
-
-    @NotNull
     private Optional<IPixelmonBankAccount> getPixelmonAccount(@NotNull UUID uuid) {
         try {
             // This is very ugly as trying to access it normally would force NMS importing, which we don't want to do
