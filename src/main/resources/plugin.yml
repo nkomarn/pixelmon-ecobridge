@@ -1,0 +1,10 @@
+name: EcoBridge
+version: 1.0-SNAPSHOT
+author: Mykyta (@nkomarn)
+main: xyz.nkomarn.ecobridge.EcoBridge
+
+depend:
+  - Vault
+
+loadbefore:
+  - Essentials
